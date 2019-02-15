@@ -30,4 +30,4 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     artifactName: 'war'
-    pathToPublish: '$(build.artifactStagingDirectory)'
+    pathToPublish: '/home/site/wwwroot/webapps/ROOT '
